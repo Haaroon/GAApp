@@ -1,0 +1,23 @@
+﻿body {
+     background-color:#000052;
+     text-align: center; 
+}
+
+.outer {
+    border: 1px solid red;
+    padding: 20% 0;
+    vertical-align: middle;
+    min-height: 400px;
+}
+
+.inner {
+    padding: 10% 0;
+}
+
+button{
+    width:33%;
+    height:10%;
+    position:center;
+    top:40%;
+    text-align:left
+}

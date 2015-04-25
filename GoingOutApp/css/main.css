@@ -1,0 +1,23 @@
+﻿body {
+    text-align:left;
+}
+
+.header {
+    margin: -10px;
+    padding: 0px 0px 0px 0px;
+    background: #63867f;
+    padding: 0px 0px 0px 0px !important
+}
+
+#navbar { list-style-type: none; height: 40px; padding: 0; margin: 0; }
+#navbar { list-style-type: none; height: 40px; padding: 0; margin: 0; }
+#navbar li { float: left; position: relative; padding: 0; line-height: 40px; background: #5a8078 url(nav-bg.png) repeat-x 0 0; }
+#navbar li:hover { background-position: 0 -40px; }
+#navbar li a { display: block; padding: 0 15px; color: #fff; text-decoration: none; }
+#navbar li a:hover { color: #a3f1d7; }
+#navbar li ul { opacity: 0; position: absolute; left: 0; width: 8em; background: #63867f; list-style-type: none; padding: 0; margin: 0; }
+#navbar li:hover ul { opacity: 1; }
+#navbar li ul li { float: none; position: static; height: 0; line-height: 0; background: none; }
+#navbar li:hover ul li { height: 30px; line-height: 30px; }
+#navbar li ul li a { background: #63867f; }
+#navbar li ul li a:hover { background: #5a8078; }
