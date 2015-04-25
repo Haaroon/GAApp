@@ -3,14 +3,27 @@
 <head>
     <title></title>
     <link href="css/main.css" rel="stylesheet" />
+    <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <script src="scripts/frameworks/jquery-2.1.3.min.js"></script>
+    <script src="scripts/frameworks/jquerymobile/jquery.mobile-1.4.5.js"></script>
+    <script src="scripts/frameworks/jquerymobile/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-    <div class="header">
-        <ul id="navbar">
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Settings</a></li>
-            ss
-        </ul>
+    <div data-role="page">
+        <div data-role="header">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#" class="ui-btn-active">Events</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div><!-- /navbar --> 
+        </div>
+        <p>
+        </p>
+        <footer>
+            <button class="createbtn" onclick="location.href='CreateEvent.html'">Create Event</button>
+            <p>insert ad here</p>
+        </footer>
     </div>
 </body>
 </html>
